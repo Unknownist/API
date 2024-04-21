@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(nfc.jpg) , url(nfc2.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #141010;
+  }
+  
+  .container {
+    padding: 2rem;
+    border-radius: 20px;
+    min-height: 40vh;
+    width: 40vh;
+    background-color: linear-gradient(135deg, rgba(255, 255, 255, 0, 1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 18px 32px 0 rgba(0, 0, 0, 0.37)
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  form,select,input,button{
+    color: #000000;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+  }
+
+  form input{
+    outline: none;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    background-color: transparent;
+  }
+  .dropdown{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 2rem;
+     cursor: pointer;
+  }
+  
+  .select-container img{
+    max-width: 2rem;
+  }
+
+  .select-container{
+    display: flex;
+    width: 6rem;
+    background-color: linear-gradient(135deg, rgba(255, 255, 255, 0, 1), rgba(255, 255, 255, 0));
+   
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    
+  }
+
+
+
+  .select-container select{
+    scrollbar-color: #ccc transparent;
+    background-color: transparent ;
+    font-size: 1rem;
+  width: auto;
+  
+}
+
+#msg{
+  margin: 2rem 0 2rem 0;
+  color: #000000;
+}
+
+
+button{
+  background-color:transparent;
+  height: 2rem;
+  cursor: pointer;
+}
