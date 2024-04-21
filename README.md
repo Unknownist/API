@@ -1,3 +1,4 @@
+<img src="dollar.jpeg">
 <h1>Currency Exchange Website</h1>
 This is a currency exchange website where users can convert between different currencies at current exchange rates. The website provides a user-friendly interface for easy navigation and quick currency conversions.
 
